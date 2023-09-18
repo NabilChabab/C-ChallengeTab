@@ -14,24 +14,13 @@ int main(){
         i++;
         if (text[i] == 'm'){
             printf("m se trouve dans la position %d\n",i);
+            text[i] = 's';
         }
         else if (text[i] == 's'){
             printf("s se trouve dans la position %d\n",i);
-        }
-    }
-
-    i = 0;
-
-    while (text[i] != '\0'){
-        i++;
-        if (text[i] == 's'){
             text[i] = 'm';
-        }
-        if (text[i] == 'm'){
-            text[i] = 's';
-        }
 
-        
+        }
     }
     printf("%s",text);
 

@@ -43,7 +43,6 @@ int main(){
     for (int j = 1 ; j <= n ; j++){
         if (T[j] > moyenne){
             i++;
-           
         }
         
     }
@@ -86,14 +85,6 @@ int main(){
         break;
     }
     }
-    
-    
-    
-
-    
-    
-    
-
-
+  
     return 0;
 }
