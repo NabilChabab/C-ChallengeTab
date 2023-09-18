@@ -12,7 +12,7 @@ int main(){
     int i , s = 0 , max , min , moyenne;
 
 
-    printf("Saisir le nombre des notes  : entre (0-20) ");
+    printf("Saisir le nombre des notes : ");
     scanf("%d",&n);
 
     for (i = 1 ; i <= n ; i++){
